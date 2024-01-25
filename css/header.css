@@ -1,0 +1,88 @@
+.header {
+    position: relative;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 8px 0px;
+    direction: ltr;
+  }
+  .header a {
+    color: #333;
+  }
+  .header .iconfont {
+    font-size: 24px;
+  }
+  .header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header .inner .navIcon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-left: 20px;
+  }
+  .header .inner .logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .header .inner .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+  }
+  .header .inner .mlangIcon {
+    visibility: hidden;
+  }
+  .header .sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .header .sidebar .content {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px;
+    color: #4a4a4a;
+    font-size: 16px;
+  }
+  .header .sidebar .content.headerLangList {
+    width: 160px;
+  }
+  .header .sidebar .content ul {
+    padding: 0;
+  }
+  
+  .header .sidebar .content .item:last-child {
+    border-bottom: none;
+  }
+  
+  .header .sidebar .content .item.active .linkList {
+    display: block;
+  }
+  .header .sidebar .content .item .linkList {
+    display: none;
+  }
+  .header .sidebar .content li a {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px dotted #afb3b7;
+    margin-bottom: 20px;
+    text-align: left;
+  }

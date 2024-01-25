@@ -1,0 +1,334 @@
+.customPage {
+    background: #fff;
+    color: #000;
+  }
+  .customPage article {
+    display: flex;
+    flex-direction: column;
+    max-width: unset;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .customPage article .topBg {
+    background: top/contain
+      url(https://ad-static.mb-cdn.com/snaptubead/_next/static/images/modapk_bg-6ccb47a33ad020b602aee9a95a1e4ad6.png)
+      #fff no-repeat;
+    padding: 60px 240px;
+    box-sizing: border-box;
+  }
+  .customPage article .topBg .wp-block-media-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
+  }
+  .customPage article .topBg .wp-block-media-text img {
+    width: 75px;
+    height: 75px;
+    margin-right: 30px;
+  }
+  
+  .customPage article .topBg .wp-block-column > p {
+    margin-bottom: 0;
+  }
+  .customPage article .topBg .wp-block-column > p:last-child {
+    margin: 0;
+    font-size: 14px;
+  }
+  .customPage article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .customPage article > div {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 240px;
+    box-sizing: border-box;
+  }
+  
+  .customPage h1 {
+    margin: 0;
+  }
+  .customPage h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 40px;
+  }
+  .customPage .btnBox {
+    max-width: unset;
+  }
+  .btnBox a {
+    width: 270px;
+    height: 46px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 85, 0);
+    border: 1px solid rgb(255, 85, 0);
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+    padding: unset;
+  }
+  .apkTheme .btnBox a {
+    margin: 20px 0;
+  }
+  
+  .customPage .whiteBg.space {
+    padding-top: 40px;
+  }
+  .wp-block-media-text {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .wp-block-media-text.has-media-on-the-right {
+    direction: rtl;
+  }
+  .wp-block-media-text img {
+    max-width: 420px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .wp-block-media-text .btnBox {
+    margin: 0;
+  }
+  .wp-block-media-text .wp-block-media-text__content {
+    max-width: 500px;
+    padding: 0;
+  }
+  .wp-block-media-text__content p {
+    margin: 20px 0;
+  }
+  .customPage .wp-block-columns.listBox {
+    margin: 40px auto;
+  }
+  .customPage .featureBox .list .wp-block-group__inner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .customPage .featureBox .list .wp-block-group__inner-container > div {
+    width: 45%;
+  }
+  .customPage .featureBox img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .customPage .featureBox .list .wp-block-group__inner-container p {
+    color: #6e6e6e;
+  }
+  .customPage .whiteBg:last-child {
+    padding-top: 0;
+  }
+  .customPage .blogBox > div {
+    max-width: 1300px;
+  }
+  .customPage .blogBox p {
+    color: #2f2f2f;
+  }
+  .customPage .blogBox img {
+    max-width: unset;
+    margin-top: 40px;
+  }
+  
+  .customPage .schema-faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .customPage .schema-faq > div {
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .customPage .schema-faq > div strong {
+    font-weight: 500;
+  }
+  .customPage .schema-faq > div p {
+    opacity: 0.8;
+    font-size: 16px;
+  }
+  
+  .customPage li {
+    margin-bottom: 15px;
+  }
+  
+  /* apk theme */
+  .customPage.apkTheme article .topBg .wp-block-media-text img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .customPage.apkTheme article > div {
+    width: auto;
+  }
+  .customPage.apkTheme .topBg .wp-block-media-text {
+    margin-bottom: 0;
+  }
+  .apkTheme .wp-block-media-text .wp-block-media-text__content {
+    max-width: fit-content;
+  }
+  .apkTheme .faqBox {
+    background: #fafbfc;
+  }
+  
+  tr {
+    background: #f5f5f5;
+  }
+  .wp-block-table {
+    border: unset;
+  }
+  .wp-block-table td {
+    border: 1px solid #eee;
+  }
+  tr:nth-child(even) {
+    background: #fafbfc;
+  }
+  .customPage.apkTheme article .imgBox {
+    padding: 0px 240px 60px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .customPage.apkTheme article .imgBox > div {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  .customPage.apkTheme article .imgBox img {
+    display: block;
+    width: 266px;
+    height: 472px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 760px) {
+    .customPage {
+      font-size: 16px;
+    }
+  
+    .customPage article .topBg {
+      background: top/contain
+        url(https://intranet.snappea.com/ck3sj7g6r000301okm0cs3oh1) #fff no-repeat;
+      padding: 40px 20px;
+    }
+    .customPage h1 {
+      font-size: 26px;
+    }
+    .customPage article .topBg .wp-block-media-text img {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+  
+    .customPage h2 {
+      font-size: 22px;
+    }
+    .customPage .btnBox,
+    .apkTheme .btnBox a {
+      max-width: 320px;
+      margin: 20px auto;
+    }
+  
+    .wp-block-buttons > .wp-block-button {
+      width: 100%;
+    }
+  
+    .wp-block-media-text {
+      flex-direction: column-reverse;
+      margin-bottom: 20px;
+    }
+  
+    .customPage .featureBox .list .wp-block-group__inner-container {
+      flex-direction: column;
+    }
+    .customPage .featureBox .list .wp-block-group__inner-container > div {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+    }
+  
+    .customPage .featureBox img {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+    .customPage .moreFeature img {
+      margin-bottom: 20px;
+    }
+    .wp-block-media-text.has-media-on-the-right,
+    .wp-block-media-text.column-reverse {
+      flex-direction: column-reverse;
+    }
+    .customPage article > div,
+    .wp-block-media-text:first-child,
+    .customPage .whiteBg,
+    .customPage .faqBox,
+    .customPage .stepBox {
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+  
+    .customPage .wp-block-columns.listBox {
+      margin: 0;
+    }
+    .customPage .schema-faq > div {
+      width: 100%;
+    }
+  
+    /* apk theme */
+    .customPage.apkTheme article .topBg .wp-block-media-text img {
+      margin: 0 auto;
+    }
+    .customPage.apkTheme article > div {
+      padding: 20px;
+    }
+    .customPage.apkTheme .topBg .wp-block-media-text {
+      flex-direction: column;
+    }
+    .apkTheme .wp-block-media-text h1 {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .apkTheme .wp-block-media-text figure {
+      margin: 0 auto;
+    }
+    .apkTheme .wp-block-media-text__content p {
+      margin: 10px 0 0;
+      font-size: 14px;
+    }
+    .apkTheme .wp-block-table table {
+      font-size: 14px;
+    }
+    .customPage.apkTheme h2 {
+      margin: 20px 0;
+    }
+    .customPage.apkTheme article .imgBox {
+      padding: 0 20px;
+    }
+    .customPage.apkTheme article .imgBox img {
+      width: 130px;
+      height: 230px;
+      margin-right: 8px;
+    }
+  }
